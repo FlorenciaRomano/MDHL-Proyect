@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: #000000;
+    height: 12rem;
+    background-image:url(./Assets/Fotodesign3.jpeg);
+    background-position: 5%;
+    margin-top: 3rem;
+   
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    position: relative;
+    bottom: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+   
+    
+    
+
+    }
+
+.subtitle{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 3rem;
+    width: 80rem;
+}
+
+.subtitle div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+nav{
+    display: flex;
+    bottom: 100px;
+    align-items: stretch;
+    justify-content: end;
+    margin-right: 1rem;
+    bottom: 10px;
+    gap: 1rem;
+    
+    
+    
+    
+}
+
+nav a{
+    background-color: rgb(13, 0, 255);
+    color: #ffffff;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    
+
+    }
+
+    nav a:hover{
+        color: rgba(255, 255, 255, 0.918);
+        background-color: rgb(18, 164, 38);
+        
+        }
+
+        .main{
+            display: flex;
+        }
+
+
+        .logo{
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 50px;
+          
+            }    
+
+        section{
+            display: flex;
+           
+             text-align:left;
+             margin-top: 5rem;
+             margin-left: 20rem;
+             margin-bottom: 2rem;
+         }
+         
+         .contacto{
+             justify-items: center;
+             text-align: center;
+         }
+         
+         p{
+             color:rgb(0, 0, 0);
+
+            }
+
+
+          body{
+              background-image: url(https://previews.123rf.com/images/marinat197/marinat1971708/marinat197170800002/83392513-vector-de-la-pista-de-hockey-sobre-hielo-texturas-hielo-azul-pista-de-hielo-fondo-de-ilustraci%C3%B3n-vec.jpg);
+          }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-end;
+        margin-top: 5rem;
+    }
+         

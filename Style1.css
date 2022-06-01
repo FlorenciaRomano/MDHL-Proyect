@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 1px;
+}
+.header{
+    background-color: #ffffff;
+    border: 3px solid black ;
+    height: 10rem;
+    text-align: center;
+ 
+}
+
+.subtitle{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 2rem;
+   margin-top: 2.5rem;
+}
+
+.subtitle div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+#logo1{
+    background-color: rgb(187, 187, 187);
+    border: solid black;
+    height: 6rem;
+    width: 6rem;
+    margin-left: 50rem;
+}
+
+main{  
+   
+    flex-direction: row;
+}
+
+nav{
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1rem;
+  gap: 1rem;
+  
+  
+
+
+}
+
+nav a{
+    background-color: rgb(255, 255, 255);
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover{
+    color: rgba(255, 255, 255, 0.918);
+    background-color: blueviolet;
+    
+
+    
+
+
+
+}
+
+section{
+   display: flex;
+   flex-direction: column;
+    text-align:left;
+    align-content: center;
+    margin-top: 7rem;
+    margin-left: 25rem;
+}
+
+.sectionabout{
+    display: flex;
+    margin-left: 0%;
+    flex-direction: column;
+    margin-left: 15rem;
+
+}
+
+.contacto{
+    justify-items: center;
+    text-align: center;
+}
+
+p{
+    color:rgb(0, 0, 0);
+   }
+
+   footer{
+       margin-top: 3rem;
+   }
+
